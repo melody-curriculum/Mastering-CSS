@@ -1,0 +1,21 @@
+.box1 {
+  width: 200px;
+  height: 100px;
+  border: 1px solid blue;
+
+}
+
+.box2 {
+  width: 200px;
+  height: 100px;
+  border: 1px solid blue;
+  margin-left: 80px;
+}
+
+.box3 {
+  width: 200px;
+  height: 100px;
+  border: 1px solid blue;
+  margin-left: 160px;
+}
+
