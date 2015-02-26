@@ -1,0 +1,170 @@
+/*Container*/
+#the-scene {
+  width: 800px;
+  height: 600px;
+  background: url('images/background.png') top left no-repeat;
+  border-radius: 30px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+#fence-far {
+  position: absolute;
+  left: 0px;
+  top: 20px;
+
+    /* animation: name duration timing-function delay iteration-count direction */
+  -webkit-animation: farfencemove 8s linear infinite;
+}
+  @-webkit-keyframes farfencemove {
+    from {
+      left: 0px;
+    }
+    to {
+      left: -105px;
+    }
+  }
+
+#fence-near {
+  position: absolute;
+  left: 100px;
+  top: 175px;
+
+    /* animation: name duration timing-function delay iteration-count direction */
+  -webkit-animation: nearfencemove 5s linear 0s infinite;
+}
+  @-webkit-keyframes nearfencemove {
+    from {
+      left: 0px;
+    }
+    to {
+      left: -280px;
+    }
+
+  }
+#pig-body {
+  position: absolute;
+  left: 200px;
+  top: 290px;
+
+  -webkit-animation: bodymove 1s ease-in-out 0s infinite alternate;
+}
+  @-webkit-keyframes bodymove {
+    from {
+      top: 280px;
+    }
+    to {
+      top: 300px;
+    }
+  }
+
+
+#pig-tail {
+  position: absolute;
+  left: 200px;
+  top: 250px;
+
+  -webkit-animation: tailmove 1s ease-in-out 0s infinite alternate;
+}
+  @-webkit-keyframes tailmove {
+    from {
+      top: 275px;
+      transform: rotate(0deg);
+    }
+    to {
+      top: 290px;
+      transform: rotate(-30deg);
+    }
+  }
+
+#pig-ear {
+  position: absolute;
+  right: 150px;
+  top: 250px;
+
+  -webkit-animation: earmove 1s ease-in-out 0s infinite alternate;
+}
+  @-webkit-keyframes earmove {
+    from {
+      top: 245px;
+      transform: rotate(0deg);
+    }
+    to {
+      top: 260px;
+      transform: rotate(-30deg);
+    }
+  }
+
+#pig-leg-left-front {
+  position: absolute;
+  right: 200px;
+  top: 300px;
+
+  -webkit-animation: leftfrontmove 1s ease-in-out 0s infinite alternate;
+}
+  @-webkit-keyframes leftfrontmove {
+    from {
+      top: 380px;
+      transform: rotate(20deg);
+    }
+    to {
+      top: 400px;
+      transform: rotate(-20deg);
+    }
+  }
+
+#pig-leg-right-front {
+  position: absolute;
+  right: 200px;
+  top: 300px;
+
+  -webkit-animation: rightfrontmove 1s ease-in-out 0s infinite alternate;
+}
+  @-webkit-keyframes rightfrontmove {
+    from {
+      top: 380px;
+      transform: rotate(-20deg);
+    }
+    to {
+      top: 400px;
+      transform: rotate(20deg);
+    }
+  }
+
+#pig-leg-right-back {
+  position: absolute;
+  right: 475px;
+  top: 300px;
+
+  -webkit-animation: leftfrontmove 1s ease-in-out 0s infinite alternate;
+}
+  @-webkit-keyframes leftfrontmove {
+    from {
+      top: 380px;
+      transform: rotate(20deg);
+    }
+    to {
+      top: 400px;
+      transform: rotate(-20deg);
+    }
+  }
+
+#pig-leg-left-back {
+  position: absolute;
+  right: 475px;
+  top: 300px;
+
+  -webkit-animation: leftbackmove 1s ease-in-out 0s infinite alternate;
+}
+  @-webkit-keyframes leftbackmove {
+    from {
+      top: 380px;
+      transform: rotate(-20deg);
+    }
+    to {
+      top: 400px;
+      transform: rotate(20deg);
+    }
+  }
+
