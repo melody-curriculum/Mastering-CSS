@@ -1,8 +1,8 @@
-#Mastering CSS: Advanced Tools and Techniques
+# Mastering CSS: Advanced Tools and Techniques
 --
 
 
-##CSS Positioning
+## CSS Positioning
 - There are four main types of positioning that you will see most often - static, relative, absolute, and fixed.
 	- **Todo**: In groups research the type you are assigned and how it works, be ready to present what you learn to the entire class in two minutes or less. 
 - Static positioning is what all elements have by default. 
@@ -12,7 +12,7 @@
 
 ![](https://raw.githubusercontent.com/arun-instructor/FEWD-Arun/master/week_02_layout/04_layout/img/stackers.png)
 
-##CSS Transitions
+## CSS Transitions
 - Allow us to add an effect without using JavaScript or Flash.  
 - Allow you to go between different element states smoothly. 
 - You must specify: the CSS property you want to add an effect to and the duration of the effect. 
@@ -23,7 +23,7 @@
 
 - **Todo**: Research a transition of your choice and put it in to practice. Choose something simple :) 
 
-##Pseudo Classes in CSS
+## Pseudo Classes in CSS
 - A pseudo class is a keyword added to selectors that specifies a special state of the element to be selected. 
 - For example :hover will apply a style when the user hovers over the element specified by the selector. 
 - This is the syntax:
@@ -35,13 +35,13 @@
  ```
 - The`:nth-child selector` allows you to select one or more elements based on their source order.
 
-##CSS Selectors
+## CSS Selectors
 - Selectors allow you to select DOM elements for styling. 
 - Take a look at some of the most common CSS3 selectors 
 [here.](http://www.w3schools.com/cssref/css_selectors.asp)
 - **Todo**: Practice using a selector of your choice on codepen. 
 
-##Fun Features with CSS
+## Fun Features with CSS
 - The **border-radius** property allows you to round the borders to elements. 
 	- Ex: 
 	
@@ -71,7 +71,7 @@
 		
 		```
 
-##CSS Animations
+## CSS Animations
 - Can replace animations created by JavaScript or Flash. 
 - The **@keyframes** rule is where the animation is actually created.
 - Bind the animation to a specific selector by stating at least these two properties:
